@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	min-height: 100vh;
+	position: relative;
+}
+
+#header {
+	height: 60px;
+	background-color: #5B9BD5;
+	color: white;
+	text-align: center;
+}
+
+#header span{
+	position: relative;
+	top: 20px;
+}
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: #5B9BD5;
+	color: white;
+	text-align: center;
+
+	position: absolute;
+	bottom: 0;
+}
+
+#footer span{
+	position: relative;
+	top: 20px;
+}
+
+.button {
+	margin: auto;
+}
+
+#main {
+	position: relative;
+	margin: auto;
+	width: 280px;
+	margin-top: 20px;
+}
+
+/* ログイン画面 */
+#tab {
+	height: 320px;
+	font-size: 0;
+}
+
+#box{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	display: block;
+	margin: 4px 0 0;
+	padding: 10px;
+	width: 92%;
+	height: 240px;
+	border: 1px solid #5B9BD5;
+	-webkit-border-radius: 0 0px 6px 6px;
+	border-radius: 0 0px 6px 6px;
+	font-size: 14px;
+	margin-bottom: 100px;
+}
+
+#tab::before{
+	display:none;
+}
+
+#tab input[type="radio"]{
+	display: none;
+}
+#tab input[type="radio"] + em{
+	position: relative;
+	z-index: 100;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding: 4px 30px 0;
+	min-width: 80px;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	background: #ddd;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 30px;
+	cursor: pointer;
+}
+#tab input[type="radio"]:checked + em{
+	background: #5B9BD5;
+	color: #fff;
+}
+#tab input[type="radio"] + em ~ span{
+	display: none;
+}
+#tab input[type="radio"]:checked + em ~ span{
+	display: block;
+}
+
+.text1 {
+	display: block;
+}
+
+.text2 {
+	display: none;
+}
+ 
+select {
+	width: 70px;
+}
+
+/* メインページ用 */
+#menu {
+	margin-bottom: 20px;
+}
+
+#menu span{
+	display: block;
+}
+
+/* 今週の当番用 */
+#touban_box {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #5B9BD5;
+	border-radius: 10px
+}
+
+/* カレンダーページ用 */
+#calender_month {
+	padding: 5px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	background-color: #5B9BD5;
+	color: white;
+}
