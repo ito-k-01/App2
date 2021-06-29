@@ -1,11 +1,11 @@
 $(function() {
   $('[name="tab"]:radio').change( function() {
     if($('[id=tab1]').prop('checked')){
-      $('.text1').show();
-      $('.text2').hide();
+      $('#box1').show();
+      $('#box2').hide();
     } else if ($('[id=tab2]').prop('checked')) {
-      $('.text2').show();
-      $('.text1').hide();
+      $('#box2').show();
+      $('#box1').hide();
     } 
   });
 });
