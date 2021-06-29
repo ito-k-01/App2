@@ -20,7 +20,7 @@
                         <input type="radio" name="tab" id="tab1" checked>
                         <em>週番</em>
                     </label>
-                        <div id="box">
+                        <div id="box1">
                             <div id="text1">
                                 <form>
                                 <select name="month">
@@ -57,7 +57,7 @@
                         <input type="radio" name="tab" id="tab2">
                         <em>掃除当番</em>
                     </label>
-                        <div id="box">
+                        <div id="box2">
                             <div id="text2">
                                 <form>
                                 <select name="month">
