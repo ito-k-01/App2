@@ -23,7 +23,7 @@
 					<input type="radio" name="tab" id="tab1" checked>
 					<em>学生</em>
 				</label>
-				<div id="box">
+				<div id="box1">
 					<div class="text1">
 					<span>学年・クラス</span>
 						<select name="grade">
@@ -51,7 +51,7 @@
 					<input type="radio" name="tab" id="tab2">
 					<em>担任</em>
 				</label>
-				<div id="box">
+				<div id="box2">
 					<div class="text2">
 						<span>学年・クラス</span>
 						<select name="grade">
